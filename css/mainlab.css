@@ -5,13 +5,41 @@
 
 header h1 {
     background-color: lightblue;
-    color: ;
-    padding: 1em 0.5em 1em 0.5em;
-    border:;
+    text-align: center;
+    padding: 10px;
+}
+
+header figcaption{
+    background-color: darkblue;
+    color: aliceblue;
+    border: 2px dotted lightblue;
+}
+
+h2 {
+    color: blueviolet;
+    text-align: center;
+    border-bottom: 0.1rem solid black;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+table thead th {
+    background-color: azure;
+    padding: 2em;
+}
+
+ table thead th a {
+    border-radius: 4em;
+    padding: 1em;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(161, 230, 43);
 }
 
 footer {
-    background-color: beige;
+    background-color: rgb(240, 240, 178);
     padding: 10px 5px 4px;
-    border-bottom: 4em;
+    border: 2px solid black;
 }
