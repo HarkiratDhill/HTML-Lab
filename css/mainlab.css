@@ -34,6 +34,10 @@ table thead th {
     text-decoration: none;
 }
 
+header img {
+
+}
+
 a:hover {
     background-color: rgb(161, 230, 43);
 }
