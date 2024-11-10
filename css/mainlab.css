@@ -35,7 +35,8 @@ table thead th {
 }
 
 header img {
-
+    padding-left: 5em;
+    padding-top: 0.5;
 }
 
 a:hover {
