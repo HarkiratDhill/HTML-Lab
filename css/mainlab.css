@@ -7,12 +7,17 @@ header h1 {
     background-color: lightblue;
     text-align: center;
     padding: 10px;
+    border-radius: 1em;
+    border: solid;
 }
 
 header figcaption{
     background-color: darkblue;
     color: aliceblue;
     border: 2px dotted lightblue;
+    text-align: center;
+    width: 4em 2em;
+    height: 2em 5em;
 }
 
 h2 {
@@ -23,6 +28,13 @@ h2 {
     padding: 10px;
 }
 
+h1 {
+    background-color: azure;
+    text-align: center;
+    border-radius: 1em;
+    border: solid;
+}
+
 table thead th {
     background-color: azure;
     padding: 2em;
@@ -30,13 +42,14 @@ table thead th {
 
  table thead th a {
     border-radius: 4em;
+    border: dashed burlywood;
     padding: 1em;
     text-decoration: none;
 }
 
 header img {
     padding-left: 5em;
-    padding-top: 0.5;
+    padding-top: 0.5px;
 }
 
 a:hover {
