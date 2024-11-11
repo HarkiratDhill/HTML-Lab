@@ -41,6 +41,18 @@ h1 {
     padding: 0.5em 1em 0.5em;
 }
 
+#DigitalMedia {
+    background-color: beige;
+    border-left: solid brown;
+    padding: 0.5em 1em 0.5em;
+}
+
+#VisualDesign {
+    background-color: antiquewhite;
+    border-left: solid brown;
+    padding: 0.5em 1em 0.5em;
+}
+
 table thead th {
     background-color: azure;
     padding: 2em;
