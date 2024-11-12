@@ -140,7 +140,7 @@ footer {
 }
 
 @media (width <= 800px) {
-    h1, h2, #Webcomms, #DigitalMedia, #VisualDesign, #ProfessionalEmail, #ScriptMaking, #PersonalGraphic, {
+    h1, h2, #Webcomms, #DigitalMedia, #VisualDesign, #ProfessionalEmail, #ScriptMaking, #PersonalGraphic, p, th, figure {
         flex-direction: column;
     }
 }
