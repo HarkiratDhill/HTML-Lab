@@ -3,6 +3,12 @@
     color: white;
 }
 
+h1, h2 {
+    font-family: "Bebas Neue", 'Oswald';
+    font-weight: lighter;
+    font-size: xx-large;
+}
+
 header h1 {
     background-color: lightblue;
     text-align: center;
@@ -11,7 +17,7 @@ header h1 {
     border: solid;
 }
 
-header figcaption{
+header figure figcaption{
     background-color: darkblue;
     color: aliceblue;
     border: 2px dotted lightblue;
@@ -71,7 +77,7 @@ table thead th {
     text-decoration: none;
 }
 
-header img {
+header figure img {
     padding-left: 5em;
     padding-top: 0.5px;
 }
