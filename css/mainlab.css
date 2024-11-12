@@ -139,8 +139,8 @@ footer {
     border: 2px solid black;
 }
 
-@media screen {
-    h1, h2 {
+@media (width <= 800px) {
+    h1, h2, #Webcomms, #DigitalMedia, #VisualDesign, #ProfessionalEmail, #ScriptMaking, #PersonalGraphic, {
         flex-direction: column;
     }
 }
