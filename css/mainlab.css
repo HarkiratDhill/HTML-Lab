@@ -122,6 +122,11 @@ a:hover {
     background-color: rgb(161, 230, 43);
 }
 
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
 nav ul {
     color: darkred;
     text-transform: uppercase;
@@ -132,4 +137,10 @@ footer {
     font-style: italic;
     padding: 10px 5px 4px;
     border: 2px solid black;
+}
+
+@media screen {
+    h1, h2 {
+        flex-direction: column;
+    }
 }
