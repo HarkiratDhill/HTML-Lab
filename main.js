@@ -18,5 +18,5 @@ const greeting = () => {
     }
 }
 
-const button = document.getElementById("button");
-button.addEventListener("click", greeting);
+const btn = document.getElementById("btn-alert");
+btn-alert ("click", greeting);
