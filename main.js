@@ -9,9 +9,9 @@ const sayHello = (name) => {
 sayHello ("user");
 
 const greeting = () => {
-    if (d.getHours() <= 11) {
+    if (d.getDate() <= 11) {
         alert('Good morning user');
-    } else if (d.getHours() < 18) {
+    } else if (d.getDate() < 18) {
         alert('Good afternoon user');
     } else {
         alert('Good evening user');
