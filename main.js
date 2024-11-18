@@ -18,6 +18,6 @@ const greeting = () => {
     }
 }
 
-const btn = document.getElementById("btn-alert");
-btn.addEventListener ("Hello World");
-
+const btn = document.getElementById("btn-alert").addEventListener("click", function () {
+    alert(greeting);
+  });
